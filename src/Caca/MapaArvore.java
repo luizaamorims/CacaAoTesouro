@@ -42,7 +42,7 @@ public class MapaArvore {
 
         No armadilha = new No("Sala das Armadilhas",
                 "Você caiu em uma armadilha! Lanças e flechas voam em sua direção!",
-                -30, false, true);
+                0, false, true);
 
         raiz.setEsquerda(clareira);
         clareira.setPai(raiz);

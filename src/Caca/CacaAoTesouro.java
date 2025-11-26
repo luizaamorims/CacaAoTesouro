@@ -9,7 +9,7 @@ public class CacaAoTesouro {
         Jogador jogador = new Jogador(mapa.getRaiz());
 
         System.out.println("========================================");
-        System.out.println("    BEM-VINDO AO CAÇA AO TESOURO!");
+        System.out.println("    BEM-VINDO A CAÇA AO TESOURO!");
         System.out.println("========================================");
         System.out.println("Encontre o tesouro escondido antes que");
         System.out.println("sua vitalidade acabe!");
