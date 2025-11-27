@@ -23,7 +23,7 @@ public class SistemaArmadilha {
             jogador.receberDano(danoReduzido);
             System.out.println("Você conseguiu desviar parcialmente!");
             System.out.println("Perdeu apenas " + danoReduzido + " de vitalidade.\n");
-            return true;
+            return jogador.estaVivo();
         } else {
             int danoTotal = 30;
             jogador.receberDano(danoTotal);
