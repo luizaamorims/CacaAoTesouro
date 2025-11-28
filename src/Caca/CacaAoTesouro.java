@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CacaAoTesouro {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
         MapaArvore mapa = new MapaArvore();
         Jogador jogador = new Jogador(mapa.getRaiz());
@@ -36,7 +37,6 @@ public class CacaAoTesouro {
                 scanner.nextLine();
                 if (!SistemaArmadilha.armadilha(jogador, scanner)) {
                     jogoAtivo = false;
-                    break;
                 }
             }
 

@@ -1,6 +1,7 @@
 package Caca;
 
 public class No {
+
     private String nome;
     private String descricao;
     private int alteracaoVitalidade;

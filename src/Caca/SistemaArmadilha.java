@@ -3,7 +3,7 @@ package Caca;
 public class SistemaArmadilha {
 
     public static int lancarDado() {
-        return (int)(Math.random() * 6) + 1;
+        return (int) (Math.random() * 6) + 1;
     }
 
     public static boolean armadilha(Jogador jogador, java.util.Scanner scanner) {
